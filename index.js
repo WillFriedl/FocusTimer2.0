@@ -57,7 +57,7 @@ function countdown() {
         let minutes = Number(minutesDisplay.textContent)
         let seconds = Number(secondsDisplay.textContent)
   
-    updateTimerDisplay(45, 0)
+    updateTimerDisplay(25, 0)
   
     if (minutes <= 0 && seconds <= 0) {
         resetControls()
@@ -66,7 +66,7 @@ function countdown() {
     }
 
     if( seconds <= 0 ) {
-        seconds = 2
+        seconds = 60
         --minutes
     }
 
