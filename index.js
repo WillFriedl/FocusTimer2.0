@@ -47,7 +47,7 @@ function updateTimerDisplay(minutes, seconds) {
   }
 
 function resetTimer() {
-    updateTimerDisplay(45, 0)
+    updateTimerDisplay(25, 0)
     clearTimeout(timerTimeOut)
 }
 
